@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1128 height=615></canvas>
+      <canvas id="unity-canvas" width=1920 height=1080></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Bad Guy Webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/3e122471d185fdc7b43432edcd747d74.data",
+        dataUrl: buildUrl + "/6003492d0a6fa72283f65317433736f6.data",
         frameworkUrl: buildUrl + "/500261e4a91f7f3c1441fdc93aac4daa.js",
-        codeUrl: buildUrl + "/4d659e32dc44938ac1088ad2700579e9.wasm",
+        codeUrl: buildUrl + "/ecaf56cb3f569e3bb08af626012642af.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Karanlık",
         productName: "BadGuy",
@@ -93,8 +93,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1128px";
-        canvas.style.height = "615px";
+        canvas.style.width = "1920px";
+        canvas.style.height = "1080px";
       }
 
       loadingBar.style.display = "block";
